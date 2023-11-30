@@ -4,6 +4,7 @@ class Funciones
 {
     public static string ConvertirBase(string numero, int baseInicial, int baseFinal)
     {
+        
         if ((baseInicial != 2 && baseInicial != 8 && baseInicial != 10 && baseInicial != 16) ||
             (baseFinal != 2 && baseFinal != 8 && baseFinal != 10 && baseFinal != 16))
         {
@@ -104,12 +105,12 @@ class Funciones
             if (!encontrado)
             {
                 Console.WriteLine($"Valor {con} no existe en hexadecimal.");
-                return 0; // Salir del método si se encuentra un carácter no válido.
+                return 0; 
             }
         }
 
-        int resultadoBinario = int.Parse(resultado);
-        return resultadoBinario;
+        int resultadoD = int.Parse(resultado);
+        return resultadoD;
 
     }
 }
