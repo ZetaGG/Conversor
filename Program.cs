@@ -1,4 +1,6 @@
-﻿class Funciones
+﻿using System.Runtime.ConstrainedExecution;
+
+class Funciones
 {
     public static string ConvertirBase(string numero, int baseInicial, int baseFinal)
     {
@@ -73,12 +75,42 @@
         return resultado == "" ? "0" : resultado;
     }
 
-    public static int ConvertirHexadecimalADecimal(string hexadecimal)
+    public static void ConvertirHexadecimalADecimal(string hexadecimal)
     {
-        string[] tabla = new string["0000", "0001", "0010", "0011", "0100", "0101", "0110"],
-            "0111", "1000", "1001", "1010", "1011", "1100", "1101", "1110", "1111" );
 
-        string[] hexa = new string("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16");
+        string[] tabla = {"0000", "0001", "0010", "0011", "0100", "0101", "0110",
+        "0111", "1000", "1001", "1010", "1011", "1100", "1101", "1110", "1111" };
+
+        string[] hexa = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F" };
+
+        string resultado = "";
+
+        for (int i = 0; i < hexadecimal.Length - 1; i++)
+        {
+            string con = hexadecimal[i].ToString();
+
+            bool encontrado = false;
+
+            for (int j = 0; j < hexa.Length; j++)
+            {
+                if (con.ToUpper() == hexa[j])
+                {
+                    resultado += tabla[j];
+                    encontrado = true;
+                    break;
+                }
+            }
+
+            if (!encontrado)
+            {
+                Console.WriteLine($"Valor {con} no existe en hexadecimal.");
+                return; // Salir del método si se encuentra un carácter no válido.
+            }
+        }
+
+        Console.WriteLine(resultado);
+
+
     }
 }
 
