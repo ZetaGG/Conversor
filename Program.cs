@@ -75,7 +75,7 @@ class Funciones
         return resultado == "" ? "0" : resultado;
     }
 
-    public static void ConvertirHexadecimalADecimal(string hexadecimal)
+    public static int ConvertirHexadecimalADecimal(string hexadecimal)
     {
 
         string[] tabla = {"0000", "0001", "0010", "0011", "0100", "0101", "0110",
@@ -104,12 +104,12 @@ class Funciones
             if (!encontrado)
             {
                 Console.WriteLine($"Valor {con} no existe en hexadecimal.");
-                return; // Salir del método si se encuentra un carácter no válido.
+                return 0; // Salir del método si se encuentra un carácter no válido.
             }
         }
 
-        Console.WriteLine(resultado);
-
+        int resultadoBinario = int.Parse(resultado);
+        return resultadoBinario;
 
     }
 }
