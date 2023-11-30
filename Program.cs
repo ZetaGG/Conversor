@@ -75,7 +75,10 @@
 
     public static int ConvertirHexadecimalADecimal(string hexadecimal)
     {
-        return int.Parse(hexadecimal, System.Globalization.NumberStyles.HexNumber);
+        string[] tabla = new string["0000", "0001", "0010", "0011", "0100", "0101", "0110"],
+            "0111", "1000", "1001", "1010", "1011", "1100", "1101", "1110", "1111" );
+
+        string[] hexa = new string("1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16");
     }
 }
 
@@ -142,7 +145,7 @@ class Program
                 Console.WriteLine("Base no válida.");
                 return;
         }
-
+        
         string numeroDecimal;
 
         if (inputNumero.StartsWith("0x", StringComparison.OrdinalIgnoreCase))
