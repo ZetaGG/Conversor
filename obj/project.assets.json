@@ -8,19 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Martin (Zeta)\\.nuget\\packages\\": {}
+    "C:\\Users\\ZetaG\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Martin (Zeta)\\Documents\\Visual Studio 2022\\Escuela c#\\Conversor\\Conversor\\Conversor.csproj",
+      "projectUniqueName": "C:\\Users\\ZetaG\\Documents\\GitHub\\Conversor\\Conversor.csproj",
       "projectName": "Conversor",
-      "projectPath": "C:\\Users\\Martin (Zeta)\\Documents\\Visual Studio 2022\\Escuela c#\\Conversor\\Conversor\\Conversor.csproj",
-      "packagesPath": "C:\\Users\\Martin (Zeta)\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Martin (Zeta)\\Documents\\Visual Studio 2022\\Escuela c#\\Conversor\\Conversor\\obj\\",
+      "projectPath": "C:\\Users\\ZetaG\\Documents\\GitHub\\Conversor\\Conversor.csproj",
+      "packagesPath": "C:\\Users\\ZetaG\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ZetaG\\Documents\\GitHub\\Conversor\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Martin (Zeta)\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ZetaG\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

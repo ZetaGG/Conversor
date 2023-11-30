@@ -1,0 +1,14 @@
+C:\Users\ZetaG\Documents\GitHub\Conversor\bin\Debug\net7.0\Conversor.exe
+C:\Users\ZetaG\Documents\GitHub\Conversor\bin\Debug\net7.0\Conversor.deps.json
+C:\Users\ZetaG\Documents\GitHub\Conversor\bin\Debug\net7.0\Conversor.runtimeconfig.json
+C:\Users\ZetaG\Documents\GitHub\Conversor\bin\Debug\net7.0\Conversor.dll
+C:\Users\ZetaG\Documents\GitHub\Conversor\bin\Debug\net7.0\Conversor.pdb
+C:\Users\ZetaG\Documents\GitHub\Conversor\obj\Debug\net7.0\Conversor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ZetaG\Documents\GitHub\Conversor\obj\Debug\net7.0\Conversor.AssemblyInfoInputs.cache
+C:\Users\ZetaG\Documents\GitHub\Conversor\obj\Debug\net7.0\Conversor.AssemblyInfo.cs
+C:\Users\ZetaG\Documents\GitHub\Conversor\obj\Debug\net7.0\Conversor.csproj.CoreCompileInputs.cache
+C:\Users\ZetaG\Documents\GitHub\Conversor\obj\Debug\net7.0\Conversor.dll
+C:\Users\ZetaG\Documents\GitHub\Conversor\obj\Debug\net7.0\refint\Conversor.dll
+C:\Users\ZetaG\Documents\GitHub\Conversor\obj\Debug\net7.0\Conversor.pdb
+C:\Users\ZetaG\Documents\GitHub\Conversor\obj\Debug\net7.0\Conversor.genruntimeconfig.cache
+C:\Users\ZetaG\Documents\GitHub\Conversor\obj\Debug\net7.0\ref\Conversor.dll
